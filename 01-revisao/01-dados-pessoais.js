@@ -7,3 +7,10 @@
 
 // Escreva sua solução abaixo:
 
+const nome = "Ana";
+const curso = "Desenvolvimento de Sistemas";
+const modulo = "Back-end"; 
+
+console.log("meu nome é " + nome + ", estudo " + curso + " e estou no módulo "
+     + modulo + ".");
+ uu               

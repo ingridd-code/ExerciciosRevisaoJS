@@ -10,3 +10,15 @@
 
 // Escreva sua solução abaixo:
 
+let numero = 0;
+// numero > 0 = positivo
+// numero < 0 = negativo
+// numero = 0 
+
+if (numero > 0) {
+    console.log("número positivo");
+} else if (numero < 0){
+    console.log("número negativo");
+} else if (numero = 0){
+    console.log("número = zero");
+}

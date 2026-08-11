@@ -9,3 +9,14 @@
 
 // Escreva sua solução abaixo:
 
+let usuarioAtivo = true;
+let senhaCorreta = true;
+
+if (usuarioAtivo && senhaCorreta) {
+    console.log("Acesso permitido");
+}
+
+
+// else (usuarioInativo && senhaIncorreta) {
+//     console.log("Acesso não permitido");
+// }

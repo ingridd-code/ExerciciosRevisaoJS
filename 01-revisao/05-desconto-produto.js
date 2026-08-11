@@ -9,3 +9,10 @@
 
 // Escreva sua solução abaixo:
 
+let preco = 200;
+let desconto = 20;
+let valorDesconto = (preco * desconto) / 100;
+let precoFinal = preco - valorDesconto;
+
+console.log(`O valor do desconto é: ${valorDesconto} reais.`);
+console.log(`O preço final do produto é: ${precoFinal} reais.`);

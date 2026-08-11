@@ -9,3 +9,12 @@
 
 // Escreva sua solução abaixo:
 
+let saldo = 150;
+let valorCompra = 200;
+
+if(saldo > 200) {
+    console.log("Saldo suficiente para comprar 👌");
+}else {
+    (saldo < 200)
+    console.log("Valor insuficiente para comprar");
+}

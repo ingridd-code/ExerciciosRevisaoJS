@@ -15,3 +15,16 @@ let precos = [20, 15, 30, 10, 25];
 
 // Escreva sua solução abaixo:
 
+let total = 0;
+
+for (let i = 0; i < precos.length; i++) {
+    console.log(`Preço: R$ ${precos[i]}`);
+    total += precos[i];
+}
+console.log(`Valor total: R$ ${total}`);
+
+if (total >= 100) {
+    console.log("Compra acima de R$ 100");
+} else {
+    console.log("Compra abaixo de R$ 100");
+}

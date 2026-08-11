@@ -4,3 +4,7 @@
 
 // Escreva sua solução abaixo:
 
+for (let i=1; i<=10; i++){
+    multiplicacao =7*i
+    console.log(multiplicacao)
+}
